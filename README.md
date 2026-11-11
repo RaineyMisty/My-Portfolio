@@ -1,19 +1,22 @@
 # Tingxu Chen — Portfolio
 
-Adapted from **Strata by HTML5 UP**, licensed under CC BY 3.0. Keep the footer credit and LICENSE.txt.
+A responsive, dependency-free portfolio with a dark green hero, lime accents, custom SVG project diagrams, expandable project notes, and a mobile layout.
 
-## Edit
-- `index.html`: your name, content, projects, and coursework.
-- `assets/css/portfolio.css`: custom design on top of Strata.
-- `assets/js/portfolio.js`: set CONTACT_EMAIL to your real address. Without it, the form copies a message and never claims to send it. With it, the form opens the visitor’s email app. No server is needed.
-- Replace each “File coming soon” with a real link to your course file. Project links are marked as pending until you add them.
+Open `index.html` in a browser. No installation or build step is needed. All page assets are local, so the page also works offline.
 
-## GitHub Pages
-1. Create a GitHub repository.
-2. Upload **the contents of this folder**, with index.html at the root.
-3. In Settings → Pages, choose Deploy from a branch, main, / (root), then Save.
-4. Open the URL GitHub provides. Relative asset links also work on project Pages URLs.
+## Editing
 
-No installation or build step is required. Open index.html locally to view it.
+- `index.html`: biography, project descriptions, and coursework.
+- `assets/css/portfolio.css`: layout, colors, and responsive styles.
+- `assets/js/portfolio.js`: set `CONTACT_EMAIL` to your real email address. Without it, the form copies a message and never claims to send it. With it, the form opens the visitor's email app for review and sending.
+- `assets/favicon.svg`: browser tab icon.
 
-The project illustrations are conceptual artwork, not screenshots. The course files and repository URLs have intentionally not been invented.
+Replace the coursework's “Coming soon” labels with links when you add your documents. Add repository and demo links inside the appropriate project notes. Illustrations are conceptual artwork, not product screenshots.
+
+## Publishing with GitHub Pages
+
+Upload the contents of this directory with `index.html` at the root. In repository Settings → Pages, choose **Deploy from a branch**, then the desired branch and **/ (root)**. Relative asset paths work on project Pages URLs.
+
+## Attribution
+
+Originally adapted from **Strata by HTML5 UP**, licensed under CC BY 3.0. The new layout uses its own stylesheet and JavaScript; legacy template assets may remain in the folder. Keep the footer attribution and `LICENSE.txt`.
